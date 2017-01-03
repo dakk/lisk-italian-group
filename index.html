@@ -51,9 +51,29 @@
 		<hr>
 		<h2>Contributions</h2>
 		<p>Contributions and pull requests to external projects related to the Lisk ecosystem or to the Lisk core software.</p>
-		<div ng-repeat="c in contributions">
-			{{c}}
-		</div>
+
+		<table class="table">
+		<tr ng-repeat="c in contributions" style="font-size: 120%">
+			<td>
+				<span style="color: #6e5494;">
+					<i class="fa fa-code-fork"></i>
+					{{c.repository}}
+				</span>
+			</td>
+			<td>
+				{{c.title}}
+			</td>
+			<td>
+				{{c.date}}
+			</td>
+			<td>
+				<span ng-repeat="auth in c.authors">{{auth}}&nbsp;</span>
+			</td>
+			<td>
+				<a href="{{c.uri}}"><i class="fa fa-external-link"></i></a>
+			</td>
+		</tr>
+		</table>
 	</div>
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
