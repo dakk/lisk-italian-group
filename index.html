@@ -28,13 +28,14 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<hr>
 		<h2>Projects</h2>
+		<p>Project related to the Lisk ecosystem and developed by the LIG members.</p>
 		<div class="row">
 			<div class="col-md-3" ng-repeat="c in projects">
 				<div class="panel" ng-class="{ 'panel-success': c.stage == 'production', 'panel-warning': c.stage == 'development' }">
 					<div class="panel-heading">
 						<h3 class="panel-title">{{c.name}}</h3>
 					</div>
-					<div class="panel-body">
+					<div class="panel-body" style="height: 150px">
 						{{c.type}} - {{c.stage}}
 						<hr>
 						{{c.description}}
@@ -49,6 +50,10 @@
 		</div>
 		<hr>
 		<h2>Contributions</h2>
+		<p>Contributions and pull requests to external projects related to the Lisk ecosystem or to the Lisk core software.</p>
+		<div ng-repeat="c in contributions">
+			{{c}}
+		</div>
 	</div>
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
