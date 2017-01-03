@@ -1,0 +1,9 @@
+[
+    {
+        "name": "lisk-delegate-monitor",
+        "stage": "production",
+        "repository": "https://github.com/dakk/lisk-delegate-monitor",
+        "license": "MIT",
+        "authors": [ "dakk" ]
+    }
+]
