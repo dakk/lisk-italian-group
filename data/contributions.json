@@ -1,9 +1,20 @@
 [
     {
         "name": "lisk-delegate-monitor",
+        "description": "Web platform for lisk delegates",
+        "type": "webservice",
         "stage": "production",
         "repository": "https://github.com/dakk/lisk-delegate-monitor",
         "license": "MIT",
         "authors": [ "dakk" ]
+    },
+    {
+        "name": "liskapi",
+        "description": "A smart wrapper for Lisk node APIs",
+        "type": "library",
+        "stage": "development",
+        "repository": "https://github.com/dakk/liskapi",
+        "license": "MIT",
+        "authors": [ "dakk", "liskit" ]
     }
 ]
