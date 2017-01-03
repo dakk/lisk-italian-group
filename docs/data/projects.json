@@ -1,0 +1,74 @@
+[
+    {
+        "name": "lisk-delegate-monitor",
+        "description": "Web platform for lisk delegates",
+        "type": "webservice",
+        "stage": "production",
+        "repository": "https://github.com/dakk/lisk-delegate-monitor",
+        "license": "MIT",
+        "authors": [ "dakk" ]
+    },
+    {
+        "name": "liskitbot",
+        "description": "Simple telegram bot for Lisk machine status (check JS branch) ",
+        "type": "bot",
+        "stage": "production",
+        "repository": "https://github.com/andreafspeziale/liskitbot",
+        "license": "MIT",
+        "authors": [ "liskit" ]
+    },
+    {
+        "name": "liskapi",
+        "description": "A smart wrapper for Lisk node APIs",
+        "type": "library",
+        "stage": "development",
+        "repository": "https://github.com/dakk/liskapi",
+        "license": "MIT",
+        "authors": [ "dakk", "liskit" ]
+    },
+    {
+        "name": "lisk-js-autorebuilder",
+        "description": "Lisk node anti-fork made in Javascript",
+        "type": "bot",
+        "stage": "production",
+        "repository": "https://github.com/andreafspeziale/lisk-js-autorebuilder",
+        "license": "MIT",
+        "authors": [ "liskit" ]
+    },
+    {
+        "name": "lisk-dice",
+        "description": "Dice game for Lisk, Shift and Ark ",
+        "type": "webservice",
+        "stage": "development",
+        "repository": "https://github.com/dakk/lisk-dice",
+        "license": "MIT",
+        "authors": [ "dakk" ]
+    },
+    {
+        "name": "lisk-dump-detector",
+        "description": "Detect delegates who send money to know exchanges addresses",
+        "type": "webservice",
+        "stage": "development",
+        "repository": "Dice game for Lisk, Shift and Ark",
+        "license": "MIT",
+        "authors": [ "dakk" ]
+    },
+    {
+        "name": "termux-liskmonitor",
+        "description": "A termux script for monitoring Lisk delegate",
+        "type": "mobile",
+        "stage": "development",
+        "repository": "https://github.com/dakk/termux-liskmonitor",
+        "license": "MIT",
+        "authors": [ "dakk" ]
+    },
+    {
+        "name": "lisk-italian-group",
+        "description": "This website",
+        "type": "website",
+        "stage": "development",
+        "repository": "https://github.com/dakk/lisk-italian-group",
+        "license": "MIT",
+        "authors": [ "dakk" ]
+    }
+]

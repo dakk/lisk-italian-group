@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Peers count API",
+        "repository": "LiskHQ/lisk",
+        "uri": "https://github.com/LiskHQ/lisk/pull/365",
+        "date": "3 January 2017",
+        "authors": [ "dakk" ]
+    },
+    {
+        "title": "Add delegate forging statistics",
+        "repository": "LiskHQ/lisk",
+        "uri": "https://github.com/LiskHQ/lisk/pull/343",
+        "date": "20 December 2016",
+        "authors": [ "dakk" ]
+    }
+]
