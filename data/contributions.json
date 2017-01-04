@@ -7,6 +7,13 @@
         "authors": [ "dakk" ]
     },
     {
+     	"title": "Forging statistics",
+        "repository": "LiskHQ/lisk-ui",
+        "uri": "https://github.com/LiskHQ/lisk-ui/pull/90",
+        "date": "21 December 2016",
+        "authors": [ "dakk" ]
+    },
+    {
         "title": "Add delegate forging statistics",
         "repository": "LiskHQ/lisk",
         "uri": "https://github.com/LiskHQ/lisk/pull/343",
