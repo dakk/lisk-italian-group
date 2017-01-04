@@ -1,0 +1,42 @@
+{
+  "name": "lisk-italian-group",
+  "version": "1.0.0",
+  "description": "Lisk Italian community website",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dakk/lisk-italian-group.git"
+  },
+  "keywords": [
+    "lisk",
+    "community",
+    "wesite"
+  ],
+  "author": "Davide Gessa (gessadavide@gmail.com)",
+  "contributors": [
+    {
+      "name": "Andrea Francesco Speziale",
+      "email": "andreaf.speziale@gmail.com",
+      "url": "http://andreafspeziale.github.io/me/"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dakk/lisk-italian-group/issues"
+  },
+  "homepage": "https://github.com/dakk/lisk-italian-group#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-wiredep": "~2.0.0",
+    "load-grunt-tasks": "^3.2.0"
+  }
+}

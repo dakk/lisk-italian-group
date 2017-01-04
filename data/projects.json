@@ -29,7 +29,7 @@
     {
         "name": "lisk-js-autorebuilder",
         "description": "Lisk node anti-fork made in Javascript",
-        "type": "bot",
+        "type": "script",
         "stage": "production",
         "repository": "https://github.com/andreafspeziale/lisk-js-autorebuilder",
         "license": "MIT",
@@ -69,6 +69,43 @@
         "stage": "development",
         "repository": "https://github.com/dakk/lisk-italian-group",
         "license": "MIT",
-        "authors": [ "dakk" ]
+        "authors": [ "dakk", "liskit" ]
+    },
+    {
+        "name": "lisk-explorer",
+        "description": "Lisk network explorer",
+        "type": "script",
+        "stage": "production",
+        "repository": "https://github.com/andreafspeziale/lisk-explorer.git",
+        "license": "MIT",
+        "authors": [  "liskit" ]
+    },
+    {
+        "name": "liskit-dashboard",
+        "description": "Liskit voters dashboard",
+        "type": "website",
+        "stage": "production",
+        "repository": "https://github.com/andreafspeziale/liskit-dashboard.git",
+        "license": "MIT",
+        "authors": [  "liskit" ]
+    },
+    {
+        "name": "liskitbash",
+        "description": "Smart bash wrapper for Lisk installation and update",
+        "type": "script",
+        "stage": "development",
+        "repository": "https://github.com/andreafspeziale/liskitbash.git",
+        "license": "MIT",
+        "authors": [  "liskit" ]
+    },
+    {
+        "name": "lisk-ansible",
+        "description": "Virtual Lisk local node for development",
+        "type": "devops",
+        "stage": "production",
+        "repository": "https://github.com/andreafspeziale/lisk-ansible.git",
+        "license": "MIT",
+        "authors": [  "liskit" ]
     }
+
 ]

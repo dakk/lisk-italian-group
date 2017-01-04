@@ -19,5 +19,19 @@
     "bootstrap": "^3.3.7",
     "bootstrap-material-design": "^0.5.10",
     "font-awesome": "^4.7.0"
+  },
+  "overrides":{
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css",
+        "less/bootstrap.less"
+      ]
+    }
   }
 }
