@@ -87,6 +87,13 @@
 		<h2><i class="fa fa-user-o title-icons-pipe" aria-hidden="true"></i> Members</h2>
 		<p>All the <strong>Lisk Italian members</strong> that are <strong>actively</strong> contribute to the ecosystem.</p>
 		<div class="spacer-50"></div>
+		<div class="row">
+			<div class="col-md-3" ng-repeat="m in members">
+				<div class="circle">
+					<img ng-src="/img/{{m.img}}" class="img-responsive"/>
+				</div>
+				<p class="text-center margin-top-10">{{m.name}}</p>
+			</div>
 	</div>
 
 	<!-- bower:js -->
