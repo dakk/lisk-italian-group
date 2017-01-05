@@ -13,6 +13,7 @@
   	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
   	<!-- endbower -->
 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
   	<link rel="stylesheet" type="text/css" href="style/main.css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -23,11 +24,16 @@
   </head>
   <body>
 	<div class="container" ng-controller="indexController">
-		<h1>Lisk Italian Group</h1>
+		<div class="spacer-50"></div>
+		<h1 class="text-center">Lisk <strong>Italian</strong> Group</h1>
+		<div class="spacer-50"></div>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="spacer-25"></div>
 		<hr>
-		<h2>Projects</h2>
-		<p>Project related to the Lisk ecosystem and developed by the LIG members.</p>
+		<div class="spacer-25"></div>
+		<h2><i class="fa fa-coffee title-icons-pipe" aria-hidden="true"></i> Projects</h2>
+		<p>Project related to the <strong>Lisk ecosystem</strong> and developed by the <strong>LIG</strong> members.</p>
+		<div class="spacer-50"></div>
 		<div class="row">
 			<div class="col-md-3" ng-repeat="c in projects">
 				<div class="panel" ng-class="{ 'panel-success': c.stage == 'production', 'panel-warning': c.stage == 'development' }">
@@ -47,10 +53,12 @@
 				</div>
 			</div>
 		</div>
+		<div class="spacer-25"></div>
 		<hr>
-		<h2>Contributions</h2>
-		<p>Contributions and pull requests to external projects related to the Lisk ecosystem or to the Lisk core software.</p>
-
+		<div class="spacer-25"></div>
+		<h2><i class="fa fa-thumbs-o-up title-icons-pipe" aria-hidden="true"></i> Contributions</h2>
+		<p>Contributions and pull requests to external projects related to the <strong>Lisk ecosystem</strong> or to the <strong>Lisk core software</strong>.</p>
+		<div class="spacer-50"></div>
 		<table class="table">
 		<tr ng-repeat="c in contributions" style="font-size: 120%">
 			<td>
@@ -73,6 +81,12 @@
 			</td>
 		</tr>
 		</table>
+		<div class="spacer-25"></div>
+		<hr>
+		<div class="spacer-25"></div>
+		<h2><i class="fa fa-user-o title-icons-pipe" aria-hidden="true"></i> Members</h2>
+		<p>All the <strong>Lisk Italian members</strong> that are <strong>actively</strong> contribute to the ecosystem.</p>
+		<div class="spacer-50"></div>
 	</div>
 
 	<!-- bower:js -->
