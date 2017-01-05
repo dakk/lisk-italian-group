@@ -29,7 +29,7 @@
     {
         "name": "lisk-js-autorebuilder",
         "description": "Lisk node anti-fork made in Javascript",
-        "type": "bot",
+        "type": "script",
         "stage": "production",
         "repository": "https://github.com/andreafspeziale/lisk-js-autorebuilder",
         "license": "MIT",
@@ -74,7 +74,7 @@
     {
         "name": "lisk-explorer",
         "description": "Lisk network explorer",
-        "type": "webservice",
+        "type": "script",
         "stage": "production",
         "repository": "https://github.com/andreafspeziale/lisk-explorer.git",
         "license": "MIT",
@@ -91,8 +91,8 @@
     },
     {
         "name": "liskitbash",
-        "description": "Smart bash wrapper for Lisk update",
-        "type": "bot",
+        "description": "Smart bash wrapper for Lisk installation and update",
+        "type": "script",
         "stage": "development",
         "repository": "https://github.com/andreafspeziale/liskitbash.git",
         "license": "MIT",

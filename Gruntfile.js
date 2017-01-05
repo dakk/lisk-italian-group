@@ -12,7 +12,14 @@ module.exports = function(grunt){
             bower: {
                 files: ['bower_components/*'],
                 tasks: ['wiredep']
-            }
+            },
+            css: {
+                files: './style/*.styl',
+                tasks: ['stylus'],
+                options: {
+                    livereload: true
+                }
+            },
         },
         copy: {
             main: {
@@ -21,10 +28,21 @@ module.exports = function(grunt){
                     {   expand: true, src: ['./js/**'], dest: 'docs/' },
                     {   expand: true, src: ['./data/**'], dest: 'docs/' },
                     {   expand: true, src: ['./index.html'], dest: 'docs/' },
+                    {   expand: true, src: ['./style/*.css', '!./style/*.styl'], dest: 'docs/' }
                 ]
+            }
+        },
+        stylus: {
+            compile: {
+                options: {
+                    compress: true
+                },
+                files: {
+                    'style/main.css': ['style/*.styl']
+                }
             }
         }
     })
-    grunt.registerTask('default', ['wiredep', 'watch']);
-    grunt.registerTask('build', ['copy']);
+    grunt.registerTask('default', ['wiredep', 'stylus', 'watch']);
+    grunt.registerTask('build', ['stylus', 'copy']);
 }
