@@ -16,4 +16,8 @@ ligApp.controller('indexController', function indexController($scope, $http) {
     $http.get ('data/contributions.json').then (function (data) {
         $scope.contributions = data.data;
     });
+
+    $http.get ('data/members.json').then (function (data) {
+        $scope.members = data.data;
+    });
 });

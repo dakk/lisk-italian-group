@@ -28,7 +28,8 @@ module.exports = function(grunt){
                     {   expand: true, src: ['./js/**'], dest: 'docs/' },
                     {   expand: true, src: ['./data/**'], dest: 'docs/' },
                     {   expand: true, src: ['./index.html'], dest: 'docs/' },
-                    {   expand: true, src: ['./style/*.css', '!./style/*.styl'], dest: 'docs/' }
+                    {   expand: true, src: ['./style/*.css', '!./style/*.styl'], dest: 'docs/' },
+                    {   expand: true, src: ['./img/**'], dest: 'docs/' }
                 ]
             }
         },
