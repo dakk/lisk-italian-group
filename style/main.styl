@@ -1,12 +1,13 @@
-white = #fff
+$white = #fff
 black = #000
+grey = #e6e6e6
 
 html, body
     width 100%
     height 100%
 
 body
-    background white
+    background $white
     font-family 'Open Sans', sans-serif
     font-size 15px
 
@@ -21,6 +22,29 @@ h1, h2, h3, h4, h5, h6
 
 .margin-top-10
     margin-top 10px
+
+.container-full-bg
+    position: relative
+    width 100%
+    height 100%
+    max-width 100%
+    background-image url('/img/background.png')
+    background-position center
+    background-size cover
+    color #fff
+
+.container-full-bg .container
+    height 100%
+    width 100%
+
+.centered
+    text-align center
+    margin 0
+    position absolute
+    top 50%
+    left 50%
+    margin-right -50%
+    transform: translate(-50%, -50%)
 
 .circle
     width 100px
