@@ -36,7 +36,7 @@
         "authors": [ "liskit" ]
     },
     {
-        "name": "wallist",
+        "name": "wallisk",
         "description": "Not just a simple LISK blockchain height checker ",
         "type": "software",
         "stage": "development",
