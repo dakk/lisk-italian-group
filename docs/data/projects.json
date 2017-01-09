@@ -36,6 +36,15 @@
         "authors": [ "liskit" ]
     },
     {
+        "name": "wallist",
+        "description": "Not just a simple LISK blockchain height checker ",
+        "type": "software",
+        "stage": "production",
+        "repository": "https://github.com/corsaro1/wallisk",
+        "license": "MIT",
+        "authors": [ "corsaro" ]
+    },
+    {
         "name": "lisk-dice",
         "description": "Dice game for Lisk, Shift and Ark ",
         "type": "webservice",
