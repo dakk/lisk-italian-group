@@ -39,7 +39,7 @@
         "name": "wallist",
         "description": "Not just a simple LISK blockchain height checker ",
         "type": "software",
-        "stage": "production",
+        "stage": "development",
         "repository": "https://github.com/corsaro1/wallisk",
         "license": "MIT",
         "authors": [ "corsaro" ]
