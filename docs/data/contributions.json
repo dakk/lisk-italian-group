@@ -1,5 +1,12 @@
 [
     {
+        "title": "Response correction in APIs doc",
+        "repository": "LiskHQ/lisk-docs",
+        "uri": "https://github.com/LiskHQ/lisk-docs/pull/21",
+        "date": "18 January 2017",
+        "authors": [ "liskit" ]
+    },
+    {
         "title": "Peers count API",
         "repository": "LiskHQ/lisk",
         "uri": "https://github.com/LiskHQ/lisk/pull/365",
