@@ -1,5 +1,12 @@
 [
     {
+        "title": "Update API responses",
+        "repository": "LiskHQ/lisk-docs",
+        "uri": "https://github.com/LiskHQ/lisk-docs/pull/22",
+        "date": "19 January 2017",
+        "authors": [ "liskit" ]
+    },
+    {
         "title": "Response correction in APIs doc",
         "repository": "LiskHQ/lisk-docs",
         "uri": "https://github.com/LiskHQ/lisk-docs/pull/21",
