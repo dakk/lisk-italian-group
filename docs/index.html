@@ -38,10 +38,10 @@
 			Each month LIG members (and all Liskers who want) will be free to donate a percentage of their forged Lisk to the fund.
 		</p>
 
-		<div align="center" style="font-size: 300%">
+		<!--<div align="center" style="font-size: 300%">
 			<i ng-if="fulig.balance == null" class="fa fa-spin fa-refresh"></i>
 			<span ng-if="fulig.balance != null">{{fulig.balance}} LSK</span>
-		</div>
+		</div>-->
 
 
 		<div class="spacer-25"></div>
@@ -68,7 +68,7 @@
 				{{e.location}}
 			</td>
 			<td>
-				<a href="{{c.uri}}" target="_blank"><i class="fa fa-external-link"></i></a>
+				<a ng-href="{{e.uri}}" target="_blank"><i class="fa fa-external-link"></i></a>
 			</td>
 		</tr>
 		</table>
