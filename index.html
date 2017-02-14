@@ -162,11 +162,14 @@
 		<div class="spacer-25"></div>
 		<div class="row">
 			<div class="col-md-3" ng-repeat="m in members">
-				<div class="circle">
-					<img ng-src="img/{{m.img}}" class="img-responsive"/>
-				</div>
-				<p class="text-center margin-top-10">{{m.name}}</p>
+				<a ng-href="{{ m.link }}" target="_blank" class="link">
+					<div class="circle">
+						<img ng-src="img/{{ m.img }}" class="img-responsive" />
+					</div>
+					<p class="text-center margin-top-10">{{ m.name }}</p>
+				</a>
 			</div>
+		</div>
 	</div>
 
 	<!-- bower:js -->
