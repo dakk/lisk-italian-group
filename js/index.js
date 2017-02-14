@@ -16,7 +16,7 @@ ligApp.controller('indexController', function indexController($scope, $http) {
     $http.get ('https://' + $scope.lignode + '/api/accounts/getBalance?address=' + $scope.fulig.address).then (function (data) {
         $scope.fulig.balance = parseInt (data.data.balance) / 100000000;
     });
-    $http.get('https://' + $scope.lignode + '/api/transactions?limit=10&recipientId=' + $scope.fulig.address).then(function (data) {
+    $http.get('https://' + $scope.lignode + '/api/transactions?limit=3&recipientId=' + $scope.fulig.address).then(function (data) {
         console.log('Income')
         console.log(data.data.transactions.reverse())
         let tempIncome = data.data.transactions.reverse()
@@ -34,7 +34,7 @@ ligApp.controller('indexController', function indexController($scope, $http) {
             $scope.income.push(e)
         }, this)
     })
-    $http.get('https://' + $scope.lignode + '/api/transactions?limit=10&senderId=' + $scope.fulig.address).then(function (data) {
+    $http.get('https://' + $scope.lignode + '/api/transactions?limit=3&senderId=' + $scope.fulig.address).then(function (data) {
         console.log('Outcome')
         console.log(data.data.transactions.reverse())
         let tempOutcome = data.data.transactions.reverse()
