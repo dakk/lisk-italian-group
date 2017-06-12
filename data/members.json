@@ -14,7 +14,12 @@
     "name": "liskit",
     "img": "liskit_icon.png",
     "description": "",
-    "link": "https://github.com/andreafspeziale"
+    "link": "https://github.com/andreafspeziale",
+    "pool": {
+      "url": "http://liskit.me/",
+      "percentage": 20,
+      "timing": "weekly"
+    }
   },
   {
     "name": "anamix",
@@ -55,6 +60,10 @@
     "name": "ondin",
     "img": "ondin_icon.jpg",
     "description": "",
-    "link": ""
+    "link": "",
+    "pool": {
+      "percentage": 30,
+      "timing": "weekly"
+    }
   }
 ]
