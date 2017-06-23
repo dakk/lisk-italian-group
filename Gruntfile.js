@@ -26,6 +26,7 @@ module.exports = function(grunt){
                 files: [
                     {   expand: true, src: ['./bower_components/**'], dest: 'docs/' },
                     {   expand: true, src: ['./js/**'], dest: 'docs/' },
+                    {   expand: true, src: ['./views/**'], dest: 'docs/' },
                     {   expand: true, src: ['./data/**'], dest: 'docs/' },
                     {   expand: true, src: ['./index.html'], dest: 'docs/' },
                     {   expand: true, src: ['./style/*.css', '!./style/*.styl'], dest: 'docs/' },
