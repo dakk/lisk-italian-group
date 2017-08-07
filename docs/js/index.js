@@ -1,5 +1,3 @@
-var ligApp = angular.module ('ligApp', []);
-
 ligApp.controller('indexController', function indexController($scope, $http) {
 	$scope.epochTime = new Date(Date.UTC(2016, 4, 24, 17, 0, 0, 0)).getTime();
     $scope.income = []
@@ -69,10 +67,6 @@ ligApp.controller('indexController', function indexController($scope, $http) {
 
     $http.get ('data/events.json').then (function (data) {
         $scope.events = data.data;
-    });
-
-    $http.get ('data/authors.json').then (function (data) {
-        $scope.authors = data.data;
     });
 
     $http.get ('data/initiatives.json').then (function (data) {

@@ -1,7 +1,34 @@
 [
     {
+        "name": "lisk-cmd",
+        "description": "command line tool for lisk",
+        "type": "script",
+        "stage": "production",
+        "repository": "https://github.com/dakk/lisk-cmd",
+        "license": "MIT",
+        "authors": [ "dakk" ]
+    },
+    {
+        "name": "lisk_broadcast",
+        "description": "broadcast a tx on lisk network",
+        "type": "script",
+        "stage": "production",
+        "repository": "https://github.com/corsaro1/lisk_broadcast",
+        "license": "MIT",
+        "authors": [ "corsaro" ]
+    },
+    {
+        "name": "lisk-pool",
+        "description": "lisk distribution script",
+        "type": "script",
+        "stage": "production",
+        "repository": "https://github.com/dakk/lisk-pool",
+        "license": "MIT",
+        "authors": [ "dakk" ]
+    },
+    {
         "name": "lisk-voters",
-        "description": "'git diff' between two delegate / address voters ",
+        "description": "'git diff' between two delegate / address voters",
         "type": "webservice",
         "stage": "production",
         "repository": "https://github.com/andreafspeziale/lisk-voters",
@@ -34,6 +61,15 @@
         "repository": "https://github.com/dakk/liskapi",
         "license": "MIT",
         "authors": [ "dakk", "liskit" ]
+    },
+    {
+        "name": "dpos-offline",
+        "description": "Offline Signing Transactions for DPOS Blockchains",
+        "type": "library",
+        "stage": "production",
+        "repository": "https://github.com/vekexasia/dpos-offline",
+        "license": "MIT",
+        "authors": [ "vekexasia" ]
     },
     {
         "name": "lisk-js-autorebuilder",

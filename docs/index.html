@@ -23,46 +23,9 @@
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
   </head>
-  <body ng-controller="indexController">
-
-	<div class="modal fade" id="outcomeDetailsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	  <div class="modal-dialog" role="document">
-		<div class="modal-content">
-		  <div class="modal-header">
-		    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		    <h4 class="modal-title" id="myModalLabel">Outcome details</h4>
-		  </div>
-		  <div class="modal-body">
-		    <table class="table table-striped">
-		    	<tr>
-		    		<td>Tx</td>
-		    		<td><a ng-href="https://explorer.lisk.io/tx/{{ selectedOutcome.id }}" target="_blank">{{ selectedOutcome.id }}</a>
-		    	</tr>
-		    	<tr>
-		    		<td>Date</td>
-		    		<td>{{ selectedOutcome.timestamp | date }}</td>
-		    	</tr>
-		    	<tr>
-		    		<td>Amount</td>
-		    		<td>{{ selectedOutcome.amount/100000000 }} LSK</td>
-		    	</tr>
-		    	<tr>
-		    		<td>To</td>
-		    		<td>{{ selectedOutcome.delegate || selectedOutcome.recipientId }}</td>
-		    	</tr>
-		    	<tr ng-if="selectedOutcome.description">
-		    		<td>Description</td>
-		    		<td>{{ selectedOutcome.description }}</td>
-		    	</tr>
-		    </table>
-		  </div>
-		  <div class="modal-footer">
-		    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		  </div>
-		</div>
-	  </div>
-	</div>
-
+  <body>
+	<div ng-view></div>
+    
 	<div class="container">
 		<div class="spacer-50"></div>
 		<div align="center"><img src="img/logo.svg" height="150px" /></div>
@@ -256,8 +219,11 @@
 	<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
 	<script src="bower_components/bootstrap-material-design/dist/js/material.js"></script>
 	<script src="bower_components/bootstrap-material-design/dist/js/ripples.js"></script>
+	<script src="bower_components/angular-route/angular-route.js"></script>
 	<!-- endbower -->
+	<script src="js/app.js"></script>
 	<script src="js/index.js"></script>
+	<script src="js/pool.js"></script>
 	<script>
 		$.material.init ();
 	</script>
